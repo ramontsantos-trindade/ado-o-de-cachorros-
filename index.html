@@ -24,9 +24,43 @@
                     <input type="text" name="nome" required minlength="3">
                 </div>
 
-                <div>
+                <div class="campo">
                     <label>E-mail:</label>
+                    <input type="email" name="email" required>
                 </div>
+
+                <div class="linha-dupla">
+                    <div class="campo">
+                        <label>Telefone:</label>
+                        <input type="tel" name="Telefone" placeholder="(00)00000-0000" required>
+                    </div>
+                    <div class="campo">
+                        <label>CPF:</label>
+                        <input type="text" name="CPF" required>
+                    </div>
+                </div>
+
+                <div class="linha-dupla">
+                    <div class="campo">
+                        <label>idade:</label>
+                        <input type="number" name="idade" required>
+                    </div>
+                    <div class="campo">
+                        <label>Cidade:</label>
+                        <input type="text" name="Cidade" required>
+                    </div>
+                </div>
+
+                <div class="campo">
+                    <label>Tipo de Moradia:</label>
+                    <select name="tipoMoradia" class="select-moradia">
+                        <option value="">Selecione...</option>
+                        <option value="casa">Casa</option>
+                        <option value="apartamento">apartamento</option>
+                    </select>
+                </div>
+
+                
             </form>
             
         </div>
