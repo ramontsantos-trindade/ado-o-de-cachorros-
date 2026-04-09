@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form-container {
+    background: white;
+    padding: 25;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 550;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+.linha-dupla {
+    display: flex;
+    gap: 10px;
+}
+
+.linha-dupla .campo{flex: 1;}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.hidden {display: none;}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.mesagem-sucesso {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+}

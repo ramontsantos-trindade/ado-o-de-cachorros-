@@ -6,6 +6,8 @@
     <title>Adoção de Cachorros</title>
 </head>
 
+<link rel="stylesheet" href="style.css">
+
 <body>
     <header>
         <div class="pirin">
@@ -60,15 +62,73 @@
                     </select>
                 </div>
 
-                
+                <div class="extra-casa hidden">
+                    <div class="campo">
+                        <label>Possui quintal?</label>
+                        <select name="possuiQuintal" class="selec-quintal">
+                            <option value="nao">Não</option>
+                            <option value="sim">Sim</option>
+                        </select>
+                    </div>
+                    <div class="extra-segurança campo hidden">
+                        <label>O quintal é seguro (muro/portões)?</label>
+                        <select name="quintalSeguro">
+                            <option value="nao">Não</option>
+                            <option value="sim">Sim</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="extra-apto campo hidden">
+                    <label>O condominio permite animais?</label>
+                    <select name="permiteAnimais">
+                        <option value="nao">Não</option>
+                        <option value="sim">Sim</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label>Já teve pet antes?</label>
+                    <select name="name" required>
+                        <option value="nao">Não</option>
+                        <option value="sim">Sim</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label>Horas sozinho por dia</label>
+                    <input type="number" name="horaSozinho" required>
+                </div>
+
+                <div class="campo">
+                    <label>Motivo da Adoção</label>
+                    <textarea name="motivo" rows="3" required></textarea>
+                </div>
+
+                <div class="campo">
+                    <label>Decidiu adotar hoje?</label>
+                    <select name="decidiuHoje">
+                        <option value="nao">Não</option>
+                        <option value="sim">Sim</option>
+                    </select>
+                </div>
+
+                <div class="campo check">
+                    <input type="checkbox" name="termo">
+                    <span>Aceito o termo de responsabilidade</span>
+                </div>
+
+                <button type="submit">Enviar Cadastro</button>
             </form>
-            
+            <div class="mensagem-sucesso hidden"></div>
         </div>
     </main>
 
     <footer>
-
+        <p>ONG de Proteção Animal</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
