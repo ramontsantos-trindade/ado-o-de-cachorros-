@@ -6,6 +6,8 @@
     <title>Adoção de Cachorros</title>
 </head>
 
+<link rel="stylesheet" href="style.css">
+
 <body>
     <header>
         <div class="pirin">
@@ -63,13 +65,22 @@
                 <div class="extra-casa hidden">
                     <div class="campo">
                         <label>Possui quintal?</label>
+<<<<<<< HEAD
                         <select name="PossuiQuintal" class="select-quintal ">
+=======
+                        <select name="possuiQuintal" class="selec-quintal">
+>>>>>>> c44122f33c359e2cc7ecc3c8f5acd0c100a80934
                             <option value="nao">Não</option>
                             <option value="sim">Sim</option>
                         </select>
                     </div>
+<<<<<<< HEAD
                     <div class="extra-seguranca campo hissen">
                         <label>o quintal é seguro (muros/portões)?</label>
+=======
+                    <div class="extra-segurança campo hidden">
+                        <label>O quintal é seguro (muro/portões)?</label>
+>>>>>>> c44122f33c359e2cc7ecc3c8f5acd0c100a80934
                         <select name="quintalSeguro">
                             <option value="nao">Não</option>
                             <option value="sim">Sim</option>
@@ -87,35 +98,67 @@
 
                 <div class="campo">
                     <label>Já teve pet antes?</label>
+<<<<<<< HEAD
                     <select name="jaTevepet" required>
                         <option value="sim">Sim</option>
                         <option value="nao">Não</option>
+=======
+                    <select name="name" required>
+                        <option value="nao">Não</option>
+                        <option value="sim">Sim</option>
+>>>>>>> c44122f33c359e2cc7ecc3c8f5acd0c100a80934
                     </select>
                 </div>
 
                 <div class="campo">
+<<<<<<< HEAD
                     <label for="Horas sozinho por dia"></label>
                     <input type="number" name="horasSozinho" required>
+=======
+                    <label>Horas sozinho por dia</label>
+                    <input type="number" name="horaSozinho" required>
+>>>>>>> c44122f33c359e2cc7ecc3c8f5acd0c100a80934
                 </div>
 
                 <div class="campo">
                     <label>Motivo da Adoção</label>
+<<<<<<< HEAD
                     <textarea name="Motivo" rows="3" required></textarea>
+=======
+                    <textarea name="motivo" rows="3" required></textarea>
+>>>>>>> c44122f33c359e2cc7ecc3c8f5acd0c100a80934
                 </div>
 
                 <div class="campo">
                     <label>Decidiu adotar hoje?</label>
+<<<<<<< HEAD
                     <select name="decisaoHoje"></select>
 
                 </div>
+=======
+                    <select name="decidiuHoje">
+                        <option value="nao">Não</option>
+                        <option value="sim">Sim</option>
+                    </select>
+                </div>
+
+                <div class="campo check">
+                    <input type="checkbox" name="termo">
+                    <span>Aceito o termo de responsabilidade</span>
+                </div>
+
+                <button type="submit">Enviar Cadastro</button>
+>>>>>>> c44122f33c359e2cc7ecc3c8f5acd0c100a80934
             </form>
-            
+            <div class="mensagem-sucesso hidden"></div>
         </div>
     </main>
 
     <footer>
-
+        <p>ONG de Proteção Animal</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
