@@ -60,7 +60,54 @@
                     </select>
                 </div>
 
-                
+                <div class="extra-casa hidden">
+                    <div class="campo">
+                        <label>Possui quintal?</label>
+                        <select name="PossuiQuintal" class="select-quintal ">
+                            <option value="nao">Não</option>
+                            <option value="sim">Sim</option>
+                        </select>
+                    </div>
+                    <div class="extra-seguranca campo hissen">
+                        <label>o quintal é seguro (muros/portões)?</label>
+                        <select name="quintalSeguro">
+                            <option value="nao">Não</option>
+                            <option value="sim">Sim</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="extra-apto campo hidden">
+                    <label>O condominio permite animais?</label>
+                    <select name="permiteAnimais">
+                        <option value="nao">Não</option>
+                        <option value="sim">Sim</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label>Já teve pet antes?</label>
+                    <select name="jaTevepet" required>
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="Horas sozinho por dia"></label>
+                    <input type="number" name="horasSozinho" required>
+                </div>
+
+                <div class="campo">
+                    <label>Motivo da Adoção</label>
+                    <textarea name="Motivo" rows="3" required></textarea>
+                </div>
+
+                <div class="campo">
+                    <label>Decidiu adotar hoje?</label>
+                    <select name="decisaoHoje"></select>
+
+                </div>
             </form>
             
         </div>
